@@ -18,7 +18,7 @@ void main(){
   }
 
   if(operation == ""){
-    print("Enter a value!");
+    print("Enter a value of operation!");
     return;
   }
 
@@ -42,12 +42,12 @@ void main(){
       print("MULT: ${m}");
       break;
     case "/":
-      if(convertB == 0){
-        print("It is not possible divide by 0!");
-        return;
+      try {
+        double d = operations.div();
+        print("DIV: ${d.toStringAsFixed(2)}");
+      } catch (e) {
+        print("${e.toString().replaceFirst('Exception: ', '')}");
       }
-      double d = operations.div();
-      print("DIV: ${d.toStringAsFixed(2)}");
       break;
     default:
       print("Invalid Operation");

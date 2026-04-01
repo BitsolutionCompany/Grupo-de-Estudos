@@ -1,4 +1,4 @@
-class Calculate {
+abstract class Calculate {
     double? _num1;
     double? _num2;
     double? _res;
