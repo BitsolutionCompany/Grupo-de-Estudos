@@ -47,8 +47,6 @@ Enter operation(+, -, /, x): x
 Mult: 100.00 ✅
 ```
 
-**Para o README da Atividade 1**, use esta explicação dentro da seção:
-
 ```markdown
 **O que o código faz**: Calculadora com `switch` que soma, subtrai, multiplica e divide. Inclui validação de números e proteção contra divisão por zero.
 
