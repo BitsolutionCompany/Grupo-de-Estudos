@@ -48,9 +48,9 @@ Mult: 100.00 ✅
 ```
 
 ```markdown
-**O que o código faz**: Calculadora com `switch` que soma, subtrai, multiplica e divide. Inclui validação de números e proteção contra divisão por zero.
+O que o código faz: Calculadora com `switch` que soma, subtrai, multiplica e divide. Inclui validação de números e proteção contra divisão por zero.
 
-**Conceitos praticados**:
+Conceitos praticados:
 - `switch/case` com strings
 - `RegExp` para validar entrada
 - `double.parse()` e `toStringAsFixed(2)`
