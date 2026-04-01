@@ -4,13 +4,14 @@ void main(){
 
   String? a, b, operation;
   double res;
+  final RegExp regex = RegExp(r'^[0-9]+$');
+
   print("Enter with first number: ");
   a = stdin.readLineSync();
   print("Enter with second Number: ");
   b = stdin.readLineSync();
   print("Enter with operation(+, -, /, x): ");
   operation = stdin.readLineSync();
-  final RegExp regex = RegExp(r'^[0-9]+$');
 
   if (!regex.hasMatch(a!) || !regex.hasMatch(b!)){
     print("Please provide only numbers.");
