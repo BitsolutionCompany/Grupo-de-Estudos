@@ -1,6 +1,6 @@
 Este repositório serve como ajuda para os estudos em dart apresentando os scripts feitos referentes as atividades repassadas nas aulas
 
-## 📖 O que este código faz?
+## 📖 O que o código da Atv1 faz?
 
 **É uma calculadora simples no terminal** que:
 1. Pede dois números
