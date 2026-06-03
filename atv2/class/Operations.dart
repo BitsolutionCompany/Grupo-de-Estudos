@@ -20,7 +20,7 @@ class Operations extends Calculate{
     setRes(r);
     return getRes();
   }
-  
+
   double div(){
     if (getNum2() == 0) {
       throw Exception("It is not possible divide by 0!");
@@ -28,5 +28,10 @@ class Operations extends Calculate{
     double r = getNum1() / getNum2();
     setRes(r);
     return getRes();
+  }
+
+  @override
+  void test(){
+    print("Teste 2");
   }
 } 

@@ -7,7 +7,7 @@ abstract class Calculate {
         this.setNum1(n1);
         this.setNum2(n2);
     }
-
+    
     double getNum1(){
         return _num1!;
     }
@@ -30,5 +30,9 @@ abstract class Calculate {
 
     void setRes(double res){
         this._res = res;
+    }
+
+    void test(){
+      print("teste");
     }
 }

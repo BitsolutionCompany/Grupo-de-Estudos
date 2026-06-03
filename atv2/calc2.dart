@@ -27,6 +27,7 @@ void main(){
 
 
   Operations operations = new Operations(convertA, convertB);
+  operations.test();
 
   switch(operation){
     case "+":
