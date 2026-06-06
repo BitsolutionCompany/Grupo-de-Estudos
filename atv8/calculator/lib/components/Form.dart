@@ -21,6 +21,7 @@ class _FormBuildState extends State<FormBuild> {
   void dispose(){
     controller1.dispose();
     controller2.dispose();
+    controller3.dispose();
     super.dispose();
   }
 
@@ -69,6 +70,7 @@ class _FormBuildState extends State<FormBuild> {
                       child: TextFormField(
                         controller: controller2,
                         decoration: _inputDecoration.copyWith(hintText: "Nº 2"),
+                        keyboardType: TextInputType.number,
                         validator: (String? value){
                           if(value == null || value.isEmpty){
                             return 'Input is empty';
